@@ -1,0 +1,78 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(Fonts/Montserrat/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: Montserrat SemiBold;
+  src: url(Fonts/Montserrat/Montserrat-SemiBold.ttf);
+}
+@font-face {
+  font-family: Montserrat Bold;
+  src: url(Fonts/Montserrat/Montserrat-Bold.ttf);
+}
+
+
+#content{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-image: url('abstract.jpg');
+	background-size: cover;
+	width: 100vw; height:100vh;
+	padding: 0px;
+	margin: 0px;
+	z-index: 9;
+}
+#head{
+	font-family: Montserrat Bold;
+	font-size: 6vh;
+	color: white;
+	text-align: center;
+	margin: 2.3vh;
+}
+#sub_head{
+	font-family: Montserrat;
+	font-size: 2.3vh;
+	color: white;
+	text-align: center;
+	margin-top: 1vh;
+	margin-bottom: 6vh;
+}
+#url{
+	width: 65%;
+	height: 16%;
+	margin-left: 7.5%;
+	background-color: white;
+	border:  0px solid white;
+	border-radius:100px 100px;
+	font-family: Montserrat;
+	font-size: 2.3vh;
+}
+
+#btn{
+	width: 20%;
+	height:  15%;
+	background-color: rgb(70, 100, 180);
+	color: white;
+	font-family: Montserrat SemiBold;
+	font-size: 85%;
+	border-radius: 80px;
+	border: 0px solid white;
+}
+#btn:hover{
+	width: 20%;
+	height:  15%;
+	background-color: white;
+	color: rgb(15, 15, 15);
+	font-family: Montserrat SemiBold;
+	font-size: 85%;
+	border-radius: 80px;
+	border: 0px solid white;
+}
+#note{
+	font-family: Montserrat SemiBold;
+	font-size: 2vh;
+	color: white;
+	text-align: center;
+	margin-top: 27%;
+}
